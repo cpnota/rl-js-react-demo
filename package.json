@@ -1,0 +1,21 @@
+{
+  "name": "@rl-js/react-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@bit/rl-js.apps.react.apps": "^0.0.8",
+    "@bit/rl-js.apps.react.container": "^0.0.1",
+    "@bit/rl-js.apps.react.workers": "^0.0.1",
+    "babel-polyfill": "^6.26.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "workerize-loader": "^1.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
